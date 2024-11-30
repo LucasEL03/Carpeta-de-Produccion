@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ejercicio 8</title>
+  <script>
+    let Nombre = "Lucas";
+    let apellido = "Luna";
+  </script>
+</head>
+<body>
+  <script>
+    
+    alert("Hola, " + Nombre + " " + apellido);
+  </script>
+
+  <script>
+    let lado1 = prompt("Ingrese el primer lado del rectangulo:");
+    let lado2 = prompt("Ingrese el segundo lado del rectangulo:");
+
+    let perimetro = 2 * (lado1 + lado2);
+    let area = lado1 * lado2;
+
+    document.write("<p>El perimetro del rectangulo es: " + perimetro + "</p>");
+    document.write("<p>El area del rectangulo es: " + area + "</p>");
+  </script>
+
+  <script>
+    let ladoA = prompt("Ingrese el primer lado del triangulo:");
+    let ladoB = prompt("Ingrese el segundo lado del triangulo:");
+    let ladoC = prompt("Ingrese el tercer lado del triangulo:");
+
+    if (ladoA === ladoB && ladoB === ladoC) {
+      alert("El triangulo es equilatero.");
+    } else if (ladoA === ladoB || ladoA === ladoC || ladoB === ladoC) {
+      alert("El triangulo es isosceles.");
+    } else {
+      alert("El triangulo es escaleno.");
+    }
+  </script>
+
+  <script>
+    let numeros = [];
+    for (let i = 0; i < 5; i++) {
+      numeros.push(parseInt(prompt("Ingrese un número:")));
+    }
+
+    let mayor = Math.max(...numeros);
+    let menor = Math.min(...numeros);
+
+    document.write("<ul>");
+    document.write("<li>El mayor numero es: " + mayor + "</li>");
+    document.write("<li>El menor numero es: " + menor + "</li>");
+    document.write("</ul>");
+  </script>
+
+  <script>
+    let numeroAleatorio = Math.floor(Math.random() * 11);
+    let numeroUsuario;
+
+    do {
+      numeroUsuario = parseInt(prompt("Adivina el numero (entre 0 y 10):"));
+      if (numeroUsuario < numeroAleatorio) {
+        alert("Tu numero es menor.");
+      } else if (numeroUsuario > numeroAleatorio) {
+        alert("Tu numero es mayor.");
+      }
+    } while (numeroUsuario !== numeroAleatorio);
+
+    alert("¡Felicidades! Adivinaste el número.");
+  </script>
+
+  <script>
+    function saludar() {
+      let nombre = prompt("Ingrese su nombre:");
+      alert("Hola, " + nombre);
+    }
+  </script>
+
+  <button onclick="saludar()">Saludar</button>
+</body>
+</html>

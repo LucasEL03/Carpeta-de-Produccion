@@ -1,0 +1,45 @@
+.Azul {
+    color: rgb(28, 86, 161);
+    line-height: 1px;
+}
+.Naranja {
+    color: rgb(228, 135, 47)
+}
+.Rojo {
+    color: red;
+}
+.Verde {
+    color: rgb(57, 168, 57)
+}
+.Rosa {
+    color: pink;
+}
+.Violeta {
+    color: rgb(141, 111, 141);
+}
+.VioletaOscuro {
+    color: rgb(216, 30, 176)
+}
+
+.RojoStrong {
+    color: rgb(143, 9, 9)
+}
+.VerdeStrong {
+    color: rgb(4, 126, 4);
+}
+.RosaStrong {
+    color: rgb(73, 8, 19);
+}
+.VioletaStrong { 
+    color: rgb(87, 55, 87);
+}
+.VioletaOStrong{
+    color: rgb(156, 5, 156)
+}
+.Body {
+    
+    padding-left: 250px;
+    padding-right: 450px;
+    font-size: 18px;
+    
+}

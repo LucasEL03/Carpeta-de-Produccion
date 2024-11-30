@@ -1,0 +1,64 @@
+
+.body {
+    background-color: aliceblue;
+    font-family: "Manrope", sans-serif;
+    font-weight: 300;
+}
+
+
+.h1 {
+    margin: 0px;
+    padding-top: 12px;
+    height: 80px;
+    color: white;
+    text-align: center;
+    line-height: 80px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+}
+
+.h {
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    font-style: bold;
+}
+
+.h2-actividades {
+    background-color: brown;
+    text-align: center;
+    border-radius: 5px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    font-style: bold;
+}
+
+.div {
+    padding-left: 2%;
+}
+
+.article-intro {
+    border: 2px solid black;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #f8f9fa;
+}
+
+.article {
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: white;
+}
+
+@media (min-width: 768px) {
+    .article {
+        margin-left: 6%;
+    }
+}
+
+@media (max-width: 767px) {
+    .article {
+        margin-left: 4%;
+    }
+}

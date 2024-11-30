@@ -1,0 +1,61 @@
+.ejercicio1 {
+    background-color: aquamarine;
+    margin: 20px;
+    padding: 15px;
+}
+.ejercicio2 {
+    background-image: url(../img/sapo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.ejercicio3 {
+    border-width: 2px;
+    border-color: red;
+    border-radius: 10px;
+}
+.ejercicio4 {
+    
+    border-width: 2px;
+    border-color: red;
+    font-weight: bold;
+    padding: 5px;
+}
+.ejercicio5 {
+    background-color: yellow;
+    text-align: center;
+}
+.ejercicio6 {
+    border-style: double;
+    border-width: 5px;
+    border-color: purple;
+    background-color: goldenrod;
+    margin: 40px;
+}
+.ejercicio7 {
+    background-image: url(../img/sapo.png);
+    background-position: right bottom ;
+    background-repeat: no-repeat;
+}
+.ejercicio8 {
+    background-image: url(../img/sapo.png);
+    background-repeat: repeat-y;
+    background-size: 50%;
+}
+.ejercicio9 {
+    background-color: aquamarine;
+    background-image: url(../img/sapo.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+}
+boton{
+    background-color: red;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.ejercicio10 {
+    width: 50%;
+    border-style: dotted;
+    border-width: 3px;
+    border-color: green;
+    padding: 25px;
+}
